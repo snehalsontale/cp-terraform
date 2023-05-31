@@ -1,6 +1,6 @@
-# bootcamp-terraform
+# Confluent-terraform
 
-Confluent Bootcamp conform terraform scripts and configuration file.
+Confluent conform terraform scripts and configuration file.
 
 ## preparation
 

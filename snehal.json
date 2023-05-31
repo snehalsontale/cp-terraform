@@ -1,0 +1,67 @@
+{
+    "kafka": [
+        [
+            "ip-172-32-60-251.us-west-2.compute.internal",
+            "ip-172-32-65-212.us-west-2.compute.internal",
+            "ip-172-32-89-24.us-west-2.compute.internal",
+            "ip-172-32-55-217.us-west-2.compute.internal"
+        ],
+        [
+            "kafka-0.snehal",
+            "kafka-1.snehal",
+            "kafka-2.snehal",
+            "kafka-3.snehal"
+        ]
+    ],
+    "kafka-connect": [
+        [
+            "ip-172-32-57-162.us-west-2.compute.internal",
+            "ip-172-32-79-104.us-west-2.compute.internal"
+        ],
+        [
+            "connect-0.snehal",
+            "connect-1.snehal"
+        ]
+    ],
+    "schema-registry": [
+        [
+            "ip-172-32-61-146.us-west-2.compute.internal",
+            "ip-172-32-79-215.us-west-2.compute.internal"
+        ],
+        [
+            "schema-0.snehal",
+            "schema-1.snehal"
+        ]
+    ],
+    "control-center": [
+        [
+            "ip-172-32-55-255.us-west-2.compute.internal"
+        ],
+        [
+            "controlcenter-0.snehal"
+        ]
+    ],
+    "ksqldb": [
+        [
+            "ip-172-32-62-19.us-west-2.compute.internal",
+            "ip-172-32-73-96.us-west-2.compute.internal"
+        ],
+        [
+            "ksql-0.snehal",
+            "ksql-1.snehal"
+        ]
+    ],
+    "kafka_rest": [],
+    "zookeeper": [
+        [
+            "ip-172-32-53-10.us-west-2.compute.internal",
+            "ip-172-32-74-35.us-west-2.compute.internal",
+            "ip-172-32-85-127.us-west-2.compute.internal"
+        ],
+        [
+            "zookeeper-0.snehal",
+            "zookeeper-1.snehal",
+            "zookeeper-2.snehal"
+        ]
+    ]
+}

@@ -1,0 +1,374 @@
+{
+  "broker_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "kafka-0.snehal",
+        "kafka-1.snehal",
+        "kafka-2.snehal"
+      ]
+    ]
+  },
+  "broker_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-49-221.us-west-2.compute.internal",
+        "ip-172-32-64-224.us-west-2.compute.internal",
+        "ip-172-32-86-223.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "cluster_data": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "ssh_key": "string",
+        "ssh_username": "string"
+      }
+    ],
+    "value": {
+      "ssh_key": "snehalkey_ubuntu 20.04",
+      "ssh_username": "ubuntu"
+    }
+  },
+  "connect_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "connect-0.snehal",
+        "connect-1.snehal"
+      ]
+    ]
+  },
+  "connect_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-48-62.us-west-2.compute.internal",
+        "ip-172-32-69-23.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "control_center_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "controlcenter-0.snehal"
+      ]
+    ]
+  },
+  "control_center_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-59-138.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "grafana_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "grafana.snehal"
+      ]
+    ]
+  },
+  "grafana_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-11-135.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "ksql_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ksql-0.snehal"
+      ]
+    ]
+  },
+  "ksql_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-51-29.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "prometheus_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "prometheus.snehal"
+      ]
+    ]
+  },
+  "prometheus_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-13-252.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "rest_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          []
+        ]
+      ]
+    ],
+    "value": [
+      []
+    ]
+  },
+  "rest_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          []
+        ]
+      ]
+    ],
+    "value": [
+      []
+    ]
+  },
+  "schema_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "schema-0.snehal",
+        "schema-1.snehal"
+      ]
+    ]
+  },
+  "schema_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-49-35.us-west-2.compute.internal",
+        "ip-172-32-73-181.us-west-2.compute.internal"
+      ]
+    ]
+  },
+  "zookeeper_alternate_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "zookeeper-0.snehal",
+        "zookeeper-1.snehal",
+        "zookeeper-2.snehal"
+      ]
+    ]
+  },
+  "zookeeper_private_dns": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        [
+          "tuple",
+          [
+            "string",
+            "string",
+            "string"
+          ]
+        ]
+      ]
+    ],
+    "value": [
+      [
+        "ip-172-32-62-233.us-west-2.compute.internal",
+        "ip-172-32-76-218.us-west-2.compute.internal",
+        "ip-172-32-92-105.us-west-2.compute.internal"
+      ]
+    ]
+  }
+}

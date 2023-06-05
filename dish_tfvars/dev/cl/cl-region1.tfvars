@@ -2,7 +2,7 @@
 owner-email = "ian.king@dish.com"
 owner-name = "Ian King"
 dns-suffix = "kafka.dev.aws.dish-wireless.net"
-key-name = "!!!"
+key-name = "!!"
 purpose = "dish_dev"
 
 region = "us-east-1"
@@ -20,10 +20,10 @@ create-monitoring-instances = false
 
 internal-vpc-security-group-id = "!!!"
 external-vpc-security-group-id = "!!!"
-vpc-id = "!!!"
-availability-zone = ["!!!", "!!!", "!!!"]
-subnet-id = ["!!!", "!!!", "!!!"]
-public-subnet-id = ["!!!", "!!!", "!!!",]
+vpc-id = "vpc-0fac5feaffbd09bc0"
+availability-zone = ["us-east-1a", "us-east-1b", "us-east-1d"]
+subnet-id = ["subnet-08d9822895ed2f453", "subnet-0cdd10ae4e11f8b6a", "subnet-0694b725b87f93e06"]
+#public-subnet-id = ["!!!", "!!!", "!!!",]
 
 zk-instance-type = "m5.large"
 broker-instance-type = "r5.xlarge"

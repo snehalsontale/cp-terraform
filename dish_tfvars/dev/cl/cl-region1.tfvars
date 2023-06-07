@@ -6,7 +6,7 @@ key-name = "ops.kafka-dev-e1-default.pem"
 purpose = "dish_dev"
 
 region = "us-east-1"
-aws-ami-id = "!!!"
+aws-ami-id = "ami-0261755bbcb8c4a84"
 
 zk-count = 3
 broker-count = 3
@@ -18,7 +18,7 @@ c3-count = 1
 
 create-monitoring-instances = false
 
-internal-vpc-security-group-id = "!!!"
+internal-vpc-security-group-id = "sg-09376444ff58b0d8d"
 external-vpc-security-group-id = "!!!"
 vpc-id = "vpc-0fac5feaffbd09bc0"
 availability-zone = ["us-east-1a", "us-east-1b", "us-east-1d"]

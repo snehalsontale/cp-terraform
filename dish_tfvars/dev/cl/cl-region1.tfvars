@@ -2,7 +2,7 @@
 owner-email = "ian.king@dish.com"
 owner-name = "Ian King"
 dns-suffix = "kafka.dev.aws.dish-wireless.net"
-key-name = "!!"
+key-name = "ops.kafka-dev-e1-default.pem"
 purpose = "dish_dev"
 
 region = "us-east-1"

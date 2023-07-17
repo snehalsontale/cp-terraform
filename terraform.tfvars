@@ -1,7 +1,7 @@
 # Change these
 owner-email = "ssontale@confluent.io"
 owner-name = "Snehal Sontale"
-dns-suffix = "snehal"
+dns-suffix = "snehaltest"
 key-name = "snehalkey_ubuntu 20.04"
 purpose = "Bootcamp usa"
 
@@ -9,13 +9,13 @@ purpose = "Bootcamp usa"
 region = "us-west-2"
 aws-ami-id = "ami-078d82bef2cfbafde"
 
-zk-count = 3
-broker-count = 3
-connect-count = 1
-schema-count = 1
+zk-count = 1
+broker-count = 0
+connect-count = 0
+schema-count = 0
 rest-count = 0
-ksql-count = 1
-c3-count = 1
+ksql-count = 0
+c3-count = 0
 
 create-monitoring-instances = false
 

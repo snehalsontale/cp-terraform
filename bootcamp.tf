@@ -42,6 +42,11 @@ resource "aws_instance" "zookeepers" {
   availability_zone = var.availability-zone[count.index % length(var.availability-zone)]
   vpc_security_group_ids = [ var.internal-vpc-security-group-id ]
   associate_public_ip_address = false
+  user_data = <<EOF
+  echo "Changing Hostname"
+  hostname "${var.dns-suffix}-zookeeper-${count.index}"
+  echo "${{var.dns-suffix}-zookeeper-${count.index}" > /etc/hostname
+  EOF
 }
 
 resource "aws_route53_record" "zookeepers" {
